@@ -1,5 +1,6 @@
 # eBlocWallet
-To run:
+**To run:**
+
 navigate into downloaded folder
        
 `[~] cd json_relay_node/`
