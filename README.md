@@ -1,4 +1,7 @@
 # eBlocWallet
+
+**Website:** http://ebloc.cmpe.boun.edu.tr:3002/
+
 **To run:**
 
 navigate into downloaded folder
