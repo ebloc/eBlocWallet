@@ -17,6 +17,6 @@ app.get('/sitemap',function(req,res){
   res.sendFile(path.join(__dirname+'/sitemap.html'));
 });
 */
-app.listen(3003);
+app.listen(3003); //changed!
 
 console.log("Running at Port 3003");
