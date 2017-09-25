@@ -37,9 +37,11 @@ var handleRequest = function(req, res) {
 }
 exports.app = app;
 
+//Added lines:
 app.use(bodyParser.urlencoded({
     extended: true
 }));
+
 app.use(express.static('../dist'));
 app.get('/api.mew', function(req, res) {
     wait.launchFiber(handleRequest, req, res);
